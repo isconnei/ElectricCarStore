@@ -1,0 +1,64 @@
+h1 {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.box1 {
+  display: flex;
+}
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 248, 248);
+}
+.main img {
+  width: 25%;
+  border-radius: 1em;
+}
+.main p {
+  text-align: center;
+  width: 40%;
+  font-size: 16px;
+}
+
+.listPerson {
+  display: flex;
+  flex-direction: column;
+}
+
+.person {
+  display: flex;
+  border: 1px solid rgb(200, 200, 200);
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+.person img {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+.person detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button button {
+  background-color: #a491d2;
+  color: white;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 0.8em;
+  padding: 1em 2.5em;
+}
