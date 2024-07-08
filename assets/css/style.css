@@ -31,7 +31,16 @@
 .grid-container-productos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item-product {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+  background-color: aliceblue;
+  margin: 10px;
 }
 
 .flex-container {
@@ -41,4 +50,17 @@
 
 .flex-item {
   display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: cornflowerblue;
+  color: cornflowerblue;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 0.8em;
+  padding: 1em 2.5em;
+  width: 140px;
+  text-align: center;
+  margin-bottom: 5px;
 }
